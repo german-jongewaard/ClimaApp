@@ -16,11 +16,11 @@ import com.squareup.picasso.Picasso;
 public class ClimaAdapter extends BaseAdapter {
 
     private Context mContext;
-    private Clima[] mWeathers;
+    private Clima[] mClimas;
 
     public ClimaAdapter(Context context, Clima[] weathers){
         mContext = context;
-        mWeathers = weathers;
+        mClimas = weathers;
 
     }
 
@@ -28,13 +28,13 @@ public class ClimaAdapter extends BaseAdapter {
     /* Gets the count of items in the array that this adapter is using (size of mWeathers array) */
     @Override
     public int getCount() {
-        return mWeathers.length;
+        return mClimas.length;
     }
 
     /* Gets the item for the adapter at position i */
     @Override
     public Object getItem(int i) {
-        return mWeathers[i];
+        return mClimas[i];
     }
 
     /* Allows for tagging items so that they can be easily referenced */
@@ -72,15 +72,15 @@ public class ClimaAdapter extends BaseAdapter {
         }
 
         // Set the Weather data
-        Clima weather = mWeathers[position];
+        Clima clima = mClimas[position];
 
-        String url = weather.Clima();
+        String url = clima.Clima();
         // 3rd party library for downloading image icons: http://square.github.io/picasso/
         Picasso.with(mContext).load(url).into(holder.iconImageView);
 //        holder.iconImageView.setImageResource(weather.getIconUrl(weather.getIcon...));
-        holder.weatherDescrLabel.setText(weather.getDescription());
-        holder.temperatureLabel.setText(weather.getTemperatureHi() + "");
-        holder.dayLabel.setText(weather.getDay());
+        holder.weatherDescrLabel.setText(clima.getDescription());
+        holder.temperatureLabel.setText(clima.getTemperatureHi() + "");
+        holder.dayLabel.setText(clima.getDay());
 
         return convertView;
     }
