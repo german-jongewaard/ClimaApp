@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:tools="http://schemas.android.com/tools"
       xmlns:app="http://schemas.android.com/apk/res-auto"
-      tools:context=".WeatherActivity">
+      tools:context="com.jongewaard.dev.climaactivity.activities.ClimaActivity">
 
     <item
         android:id="@+id/action_settings"

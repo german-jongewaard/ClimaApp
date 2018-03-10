@@ -8,7 +8,7 @@
                 android:paddingBottom="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:context=".activities.ClimaActivity">
+                tools:context="com.jongewaard.dev.climaactivity.activities.ClimaActivity">
 
     <ImageView
         android:id="@+id/circleImageView"

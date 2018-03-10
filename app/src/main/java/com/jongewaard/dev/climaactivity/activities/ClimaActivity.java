@@ -1,5 +1,6 @@
 package com.jongewaard.dev.climaactivity.activities;
 
+import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -174,8 +175,9 @@ public class ClimaActivity extends AppCompatActivity implements ClimaDataAsyncTa
 
 
     // saves the state of WeatherActivity prior to being destroyed
+    @SuppressLint("MissingSuperCall")
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState){
+    public void onSaveInstanceState(Bundle savedInstanceState) {
         savedInstanceState.putBoolean("isBoundToService", isBoundToService);
 
     }
