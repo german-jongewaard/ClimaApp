@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pronóstico del clima de hoy</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--Labels for the Settings List Preference-->
+    <string name="pref_temp_units_label_fahr">Fahrenheit</string>
+    <string name="pref_temp_units_label_cels">Celsius</string>
+
+    <string name="pref_temp_units_value_fahr" translatable="false">fahrenheit</string>
+    <string name="pref_temp_units_value_cels" translatable="false">celsius</string>
+
+    <!--SharedPreferences: Key name for temp unit [CHAR LIMIT=?]  -->
+    <string name="pref_temp_units_key" translatable="false">units</string>
+    <string name="pref_temp_units_label">Temperature Units</string>
+    <string name="circle_image_view"/>
+    <string name="icon_image_view"/>
+    <string name="num_days_forecast_text">5 Day Forecast</string>
+    <string name="noTextToDisplayLabel">No text to display</string>
+</resources>
