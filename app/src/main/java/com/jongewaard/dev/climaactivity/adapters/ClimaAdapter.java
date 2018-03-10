@@ -17,9 +17,9 @@ public class ClimaAdapter extends BaseAdapter {
     private Context mContext;
     private Clima[] mClimas;
 
-    public ClimaAdapter(Context context, Clima[] weathers){
+    public ClimaAdapter(Context context, Clima[] climas){
         mContext = context;
-        mClimas = weathers;
+        mClimas = climas;
 
     }
 

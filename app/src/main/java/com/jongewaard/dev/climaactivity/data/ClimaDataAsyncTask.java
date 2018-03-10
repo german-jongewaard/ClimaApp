@@ -100,7 +100,7 @@ public class ClimaDataAsyncTask extends AsyncTask<String, Void, Clima[]> {
         String format = "json";
         String units = "imperial"; // value for UNITS_PARAM to request weather forecasts in Fahrenheit
         // To retrieve the weather in Celsius units, set units to "metric"
-        int howManyDays = 5; // number of days to retrieve weather forecast data for
+        int howManyDays = 15; // number of days to retrieve weather forecast data for
 
 
 

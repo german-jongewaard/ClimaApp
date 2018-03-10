@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pronóstico del clima de hoy</string>
+    <string name="app_name">Pronóstico de hoy - Clima!</string>
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_settings">Settings</string>
@@ -16,6 +16,6 @@
     <string name="pref_temp_units_label">Temperature Units</string>
     <string name="circle_image_view"/>
     <string name="icon_image_view"/>
-    <string name="num_days_forecast_text">5 Day Forecast</string>
+    <string name="num_days_forecast_text">15 Day Forecast</string>
     <string name="noTextToDisplayLabel">No text to display</string>
 </resources>
