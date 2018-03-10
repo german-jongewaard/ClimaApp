@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import com.jongewaard.dev.climaactivity.R;
 import com.jongewaard.dev.climaactivity.models.Clima;
-import com.robynsilber.weather_forecast.model.Weather;
 import com.squareup.picasso.Picasso;
 
 public class ClimaAdapter extends BaseAdapter {
@@ -74,7 +73,7 @@ public class ClimaAdapter extends BaseAdapter {
         // Set the Weather data
         Clima clima = mClimas[position];
 
-        String url = clima.Clima();
+        String url = clima.getIconUrl();
         // 3rd party library for downloading image icons: http://square.github.io/picasso/
         Picasso.with(mContext).load(url).into(holder.iconImageView);
 //        holder.iconImageView.setImageResource(weather.getIconUrl(weather.getIcon...));

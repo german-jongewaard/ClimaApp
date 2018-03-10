@@ -34,7 +34,7 @@ public class LocationDetector extends Service {
     // nested class used for the client Binder.
     public class LocationBinder extends Binder {
         // method that WeatherActivity calls within its ServiceConnection's onServiceConnected() method
-        LocationDetector getLocationDetector() { // method for client to get the service
+        public LocationDetector getLocationDetector() { // method for client to get the service
             return LocationDetector.this; // returns a reference to the LocationDetector instantiation
         }
     }
