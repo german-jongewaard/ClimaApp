@@ -242,12 +242,7 @@ public class ClimaDataAsyncTask extends AsyncTask<String, Void, Clima[]> {
         if(data != null){
             mIAsyncTaskListener.asyncTaskFinished(data);
         }
-
     }
-
-
-
-
 
     // sets the value in weatherForecast[]
     private Clima[] formatJsonArray(String jsonData, int howManyDays) throws JSONException {
