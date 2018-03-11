@@ -30,7 +30,6 @@ public class Clima {
         this.mDay = day;
     }
 
-
     public int getTemperatureHi() {
         return (int) Math.round(mTemperatureHi);
     }
