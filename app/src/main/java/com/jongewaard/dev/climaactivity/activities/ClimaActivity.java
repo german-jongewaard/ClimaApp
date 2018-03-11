@@ -269,7 +269,7 @@ public class ClimaActivity extends AppCompatActivity implements ClimaDataAsyncTa
         // use--   android:id/empty   when no data to display (instead of android:id/list)
 
         // Hide the progress bar
-        mProgBarView.setIndeterminate(false);
+        //mProgBarView.setIndeterminate(false);
         mProgBarView.setIndeterminate(false);
         mProgBarView.setVisibility(View.INVISIBLE);
 
