@@ -233,9 +233,6 @@ public class ClimaDataAsyncTask extends AsyncTask<String, Void, Clima[]> {
 
     }
 
-
-
-
     // The following method runs on the main UI thread
     @Override
     protected void onPostExecute(Clima[] data){ // data is the array (or null, if fail) returned from the doInBackground() callback
