@@ -298,7 +298,6 @@ public class ClimaDataAsyncTask extends AsyncTask<String, Void, Clima[]> {
             );
             ClimaForecast[i] = Clima;
 
-
         }
 
         return ClimaForecast;
