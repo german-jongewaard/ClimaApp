@@ -138,7 +138,6 @@ public class ClimaActivity extends AppCompatActivity implements ClimaDataAsyncTa
 //        mIconImageView = (ImageView)findViewById(R.id.iconImageView);
 
 
-
         getTheLocation(); // runs code for retrieving Location data from LocationDetector
 
     }
@@ -282,10 +281,5 @@ public class ClimaActivity extends AppCompatActivity implements ClimaDataAsyncTa
             ClimaAdapter adapter = new ClimaAdapter(this, mWeatherModel);
             mListView.setAdapter(adapter);
         }
-
-
-
-
     }
-
 }
