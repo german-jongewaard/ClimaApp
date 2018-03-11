@@ -107,7 +107,4 @@ public class LocationDetector extends Service {
             return this.mLocation;
         }else return null;
     }
-
-
-
 }
