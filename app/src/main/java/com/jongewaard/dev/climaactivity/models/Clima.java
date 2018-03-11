@@ -19,7 +19,7 @@ public class Clima {
         this.mTemperatureHi = temperatureHi;
         this.mTemperatureLo = temperatureLo;
         this.mDescription = description;
-        this.mIconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";;
+        this.mIconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
     }
 
     public String getDay(){
