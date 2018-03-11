@@ -38,8 +38,6 @@ import java.text.SimpleDateFormat;
 public class ClimaDataAsyncTask extends AsyncTask<String, Void, Clima[]> {
 
 
-
-
     // Source for use of nested interface to allow WeatherActivity to listen for AsyncTask completion:
 /*  http://stackoverflow.com/questions/12575068/how-to-get-the-result-of-onpostexecute-to-main-activity-because-asynctask-is-a
 *   For me details, see answer by HelmiB, Sept 25, 2012
