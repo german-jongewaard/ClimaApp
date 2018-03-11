@@ -23,13 +23,11 @@ public class LocationDetector extends Service {
     private LocationListener mLocationListener = null; // declare a LocationListener
     private LocationProvider mLocationProvider = null;
 
-
     private static long MIN_DISTANCE_BW_UPDATES = 0; // 0 meters
     private static long MIN_TIME_BW_UPDATES = 0; // 0 milliseconds
     private static long MAX_TIME_BEFORE_TIMEOUT = 10000; // 10 secs
 
     private boolean wasOnLocationChangedCalled = false;
-
 
     // nested class used for the client Binder.
     public class LocationBinder extends Binder {
